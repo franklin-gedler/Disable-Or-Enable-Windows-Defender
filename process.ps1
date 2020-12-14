@@ -3,8 +3,6 @@ cd $currentdirectory
 #(pwd).Path
 #######################################################################################################################
 
-#echo "_________________________________________________________________________________________________________________________"
-
 #Add-MpPreference -ExclusionPath "$currentdirectory"
 echo "Deshabilito"
 Start-Process -Wait -FilePath "Disable-WinDefend.bat"
